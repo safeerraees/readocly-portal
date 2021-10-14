@@ -1432,10 +1432,10 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/developer-portal@1.1.0-beta.59":
-  version "1.1.0-beta.59"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.59.tgz#0c24adfd97288b995ef81c28f468af8582aa690c"
-  integrity sha512-NklT4DfAOu5TgVEyjB1dE8diUhmzx1ks5PeFI+R1HQEC7prD6hKM5MGwDwLTU/N/t8LVyzqRb3WbyM08iPK1rw==
+"@redocly/developer-portal@1.1.0-beta.60":
+  version "1.1.0-beta.60"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.60.tgz#433ae61b97dd6a7338ea2ad493ffb58b5dd17dac"
+  integrity sha512-QVi8YvhU037GMYPkab+nT6hjo4X8l6oJxR7uk2k+NFMZcypjI7FMsZjyHRB5PHtlU0nqGKjw/rT3xJJ2yUAtlg==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
@@ -1482,6 +1482,7 @@
     is-relative-url "^3.0.0"
     is-text-path "^2.0.0"
     is-url "^1.2.4"
+    js-yaml "3.14.1"
     lodash "^4.17.21"
     lodash.throttle "^4.1.1"
     marked "^0.7.0"
@@ -8928,7 +8929,7 @@ js-sha3@0.8.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.13.1, js-yaml@^3.14.0:
+js-yaml@3.14.1, js-yaml@^3.13.1, js-yaml@^3.14.0:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
