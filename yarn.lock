@@ -1715,17 +1715,17 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/developer-portal@1.1.0-beta.93":
-  version "1.1.0-beta.93"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.93.tgz#f0943517d1d22ec8a36cfe23d5432883388097cd"
-  integrity sha512-GXhXkd+y8lX3EeZ4xMr4raxbvYmtWVzZX3s6I5DrvYFT9yYt0Vbzk1MCrbzPf+iS7q+xT1/QZ5U6vP5q3bL9+w==
+"@redocly/developer-portal@1.1.0-beta.94":
+  version "1.1.0-beta.94"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.94.tgz#8fb30f72898591165cf681472076896c4de31f12"
+  integrity sha512-OD+B5qUTpH69ZzQa/MK2WbTK1YIFJCwBjrnpRB1x3e/CUE6DrHXDrqW1IGBsfE5TOFN8F/93/+bswKHBC5OsCg==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
     "@redocly/gatsby-plugin-manifest" "3.3.2"
     "@redocly/gatsby-remark-images" "4.2.0"
-    "@redocly/openapi-core" "1.0.0-beta.95"
-    "@redocly/reference-docs" "2.14.0"
+    "@redocly/openapi-core" "1.0.0-beta.97"
+    "@redocly/reference-docs" "2.15.0"
     babel-plugin-react-html-attrs "^3.0.5"
     babel-plugin-styled-components "^1.12.0"
     buffer "^6.0.3"
@@ -1884,10 +1884,10 @@
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@redocly/openapi-core@1.0.0-beta.95":
-  version "1.0.0-beta.95"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.95.tgz#23f92f524080c080060204f9103380de28ecae50"
-  integrity sha512-7Nnc4Obp/1lbrjNjD33oOnZCuoJa8awhBCEyyayPWGQFp1SkhjpZJnfnKkFuYbQzMjTIAvEeSp9DOQK/E0fgEA==
+"@redocly/openapi-core@1.0.0-beta.97":
+  version "1.0.0-beta.97"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.97.tgz#324ed46e9a9aee4c615be22ee348c53f7bb5f180"
+  integrity sha512-3WW9/6flosJuRtU3GI0Vw39OYFZqqXMDCp5TLa3EjXOb7Nm6AZTWRb3Y+I/+UdNJ/NTszVJkQczoa1t476ekiQ==
   dependencies:
     "@redocly/ajv" "^8.6.4"
     "@types/node" "^14.11.8"
@@ -1895,15 +1895,15 @@
     js-levenshtein "^1.1.6"
     js-yaml "^4.1.0"
     lodash.isequal "^4.5.0"
-    minimatch "^3.0.4"
+    minimatch "^5.0.1"
     node-fetch "^2.6.1"
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@redocly/reference-docs@2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.14.0.tgz#e7f87c21012afd123241d73b1ea3b13668dfc330"
-  integrity sha512-nfz0JkdLO/U/5bWMI8ImNlGzo4JBsbk/4I7otTypGeyrqz3QMj3Z9x1dM/QEQrSZDBBbKUdXDNzs5AtkMXxODg==
+"@redocly/reference-docs@2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.15.0.tgz#b7237f4902b0ade6311db1fbdd186066d528146e"
+  integrity sha512-0iVQnXy/JykUG1K3jcvDAQVcaefZ+R0IR5tHlRQvu9gcMZnUJWj20iNRvCSKvEUnpgq0vqbLeV8FAb0FTAf7lQ==
   dependencies:
     "@redocly/openapi-core" "1.0.0-beta.88"
     "@redocly/vscode-json-languageservice" "3.4.9"
@@ -3574,6 +3574,13 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+brace-expansion@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-2.0.1.tgz#1edc459e0f0c548486ecf9fc99f2221364b9a0ae"
+  integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
+  dependencies:
+    balanced-match "^1.0.0"
 
 braces@^2.3.1, braces@^2.3.2:
   version "2.3.2"
@@ -10362,6 +10369,13 @@ minimatch@3.0.4, minimatch@^3.0.3, minimatch@^3.0.4:
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
   dependencies:
     brace-expansion "^1.1.7"
+
+minimatch@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.0.1.tgz#fb9022f7528125187c92bd9e9b6366be1cf3415b"
+  integrity sha512-nLDxIFRyhDblz3qMuq+SoRZED4+miJ/G+tdDrjkkkRnjAsBexeGpgjLEQ0blJy7rHhR2b93rhQY4SvyWu9v03g==
+  dependencies:
+    brace-expansion "^2.0.1"
 
 minimist@^1.1.0, minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5:
   version "1.2.6"
