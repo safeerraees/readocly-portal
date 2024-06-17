@@ -1744,17 +1744,17 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/developer-portal@1.1.0-beta.135":
-  version "1.1.0-beta.135"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.135.tgz#37722e346c91758bb29f25cb40a0bea2f761905d"
-  integrity sha512-uXBXCsh7UZyTCEQAlVlN7kSxlELUGjhoOloL8hOUtTFIxwby1U/F2dfq8O4FDsNxjS4Lbt1XKHsgQH4n/UZsfA==
+"@redocly/developer-portal@1.1.0-beta.136":
+  version "1.1.0-beta.136"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.136.tgz#28a1898d43f023a5612f94c2647c1b8d5d3ce1bc"
+  integrity sha512-FiRWXAA4oLq1XKNPzktJGTWnZkQ5b2W27GXA9NAeUzA4I57sL2Z+36CQ/vOovCVTiwR/u3pupSsi7nQezGthrg==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
     "@redocly/gatsby-plugin-manifest" "3.3.2"
     "@redocly/gatsby-remark-images" "4.2.0"
     "@redocly/openapi-core" "1.0.2"
-    "@redocly/reference-docs" "2.43.6"
+    "@redocly/reference-docs" "2.43.7"
     babel-plugin-react-html-attrs "^3.0.5"
     babel-plugin-styled-components "^1.12.0"
     buffer "^6.0.3"
@@ -1826,7 +1826,6 @@
     reactjs-popup "^2.0.4"
     remark "^10.0.1"
     remark-admonitions "^1.2.1"
-    scroll-lock "^2.1.5"
     simple-git "^3.14.0"
     sitemap "^7.0.0"
     slugify "^1.5.1"
@@ -1930,10 +1929,10 @@
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@redocly/reference-docs@2.43.6":
-  version "2.43.6"
-  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.43.6.tgz#0e2f035bee87b5a3c6bad40c03d17c52af5ecf49"
-  integrity sha512-kMgHTtfH+18IUg8653LB4lLYHpepuqgY5QYSKSnqmrHDm2pT3NKbIIAU0Z3cIV/ZxKbA3J18Jsomnj282Vql1g==
+"@redocly/reference-docs@2.43.7":
+  version "2.43.7"
+  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.43.7.tgz#843c0bbe9ac9d66005292cb1c0592cc08a65250b"
+  integrity sha512-eo2p/yFIEpFN/dBTpjXtB1Syn4FwnKpI1/jVfyZV1ZXLATJbIERwnK/+zFq6qHwXSXCwf4rMuH9w9cokQBkadQ==
   dependencies:
     "@redocly/openapi-core" "1.0.0-beta.131"
     "@redocly/vscode-json-languageservice" "3.4.9"
@@ -13290,11 +13289,6 @@ schema-utils@^3.1.0, schema-utils@^3.1.1:
     "@types/json-schema" "^7.0.8"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
-
-scroll-lock@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/scroll-lock/-/scroll-lock-2.1.5.tgz#18bb7697f02176cbfd093726c3c972b7cbc9975f"
-  integrity sha512-GN8Lp0AzXbkrPFUUNkMUruiiv019UvarNKE/SnXi+AxZRjMnDc2R22VB9RcUtL4P/uub04cKibmpHKIKTyWwYQ==
 
 section-matter@^1.0.0:
   version "1.0.0"
